@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+
+    column-gap: 0;
+}
+
+nav{
+    display: flex;
+    background-color: rgb(55, 175, 55);
+    margin-bottom: 0px;
+    height: 100px;
+    align-items: center;
+}
+
+.logo{
+    flex: 1;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.middle{
+    flex: 1;
+    text-decoration: none;
+}
+
+.middle li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 10px;
+    
+    
+}
+.middle li a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+    font-size: larger;
+    
+}
+
+.buttons{
+    flex:1;
+    margin-right: 40px;
+    margin-top: 10px;
+    border-radius: 205;
+}
+
+.hero{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("recreation-and-sports-park-with-water-playgrounds-rs-plus-robert-skitek_38.jpg");
+    background-size: cover;
+    color: white;
+    text-decoration: none;
+    height: 200px;
+    padding-left: 30%;
+    padding-top: 5%;
+}
+.hero button{
+
+
+    color: green;
+    border-radius: 20%;
+    align-items: center;
+}
+     
+
